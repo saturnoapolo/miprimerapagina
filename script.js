@@ -1,5 +1,6 @@
-const miBoton = document.getElementById("miBoton");
-function handleClick() {
-    alert ("HOLA! HAS HECHO CLICK EN EL BOTON");
-}
-miBoton.addEventListener("click", handleClick);
+const buttonMenu = document.querySelector('.button-menu-toggle');
+const navList = document.querySelector('.nav-links');
+
+buttonMenu.addEventListener('click', () => {
+  navList.classList.toggle('show');
+});

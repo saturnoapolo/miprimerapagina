@@ -9,7 +9,7 @@
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 
@@ -25,6 +25,7 @@ text-align: center;
   display: flex;
   align-items: center;
   list-style-type: none;
+  justify-content: center; /* Agregar justificación centrada */
   margin: 0;
   padding: 0;
 }
@@ -38,7 +39,11 @@ li > a {
   color: white;
   text-decoration: none;
 }
-
+@media (min-width:768px){
+.button-menu-toggle {
+  display: none;
+}
+}
 /* Estilos para el menú responsive */
 @media (max-width: 768px) {
  /* Estilos para el menú responsive */
@@ -122,5 +127,3 @@ main {
   font-size: 18px;
   cursor: pointer;
 }
-
-
