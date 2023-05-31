@@ -87,6 +87,7 @@ li > a {
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
+    margin-left: auto;
   }
 
   .nav-links-responsive {
@@ -98,7 +99,7 @@ li > a {
     top: 60px;
     right: 0;
     width: 120px;
-    height: calc(100vh - 70px);
+    height: calc(32vh - 70px);
     background-color: rgba(20,20,20,0.95);
     margin: 0;
     padding: 0;
