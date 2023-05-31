@@ -92,12 +92,12 @@ li > a {
   .nav-links-responsive {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
+    top: 60px;
+    right: 0;
+    width: 120px;
     height: calc(100vh - 70px);
     background-color: rgba(20,20,20,0.95);
     margin: 0;
@@ -106,10 +106,10 @@ li > a {
 
   .nav-links-responsive li > a {
     display: block;
-    padding: 16px;
+    padding: 8px;
     color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 14px;
   }
 }
 
