@@ -6,7 +6,30 @@
   height: 50px;
   background-color: black;
 }
-
+.body-index {
+  background-image: url('fondo1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.body-about {
+  background-image: url('fondo2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.body-contact {
+  background-image: url('fondo3.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.body-services {
+  background-image: url('fondofinal.avif');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .navbar {
   display: flex;
   justify-content: center;
