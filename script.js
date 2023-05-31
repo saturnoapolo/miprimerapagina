@@ -1,6 +1,5 @@
-const buttonMenu = document.querySelector('.button-menu-toggle');
-const navList = document.querySelector('.nav-links');
-
-buttonMenu.addEventListener('click', () => {
-  navList.classList.toggle('show');
-});
+document.querySelector("button.button-menu-toggle")
+    .addEventListener("click", function() {
+           document.querySelector(".nav-links").
+                      classList.toggle("nav-links-responsive")})
+                      
